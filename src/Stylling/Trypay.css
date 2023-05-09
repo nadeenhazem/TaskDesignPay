@@ -1,0 +1,35 @@
+.main-div-Try{
+    color: #5C515C;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+    border-style: none !important;
+    transform: translate(0%,-50%);
+    background-color: transparent;
+
+}
+.main-div-Try h2{
+    font-weight: 800;
+}
+.main-div-Try h2 span{
+    color: #591567;
+    font-weight: bold;
+
+}
+.main-div-Try button{
+    color: #fff;
+    background-color: #FFBC51;
+    border-style: none;
+    padding: 5% 20%;
+    border-radius: 8px;
+    
+}
+@media only screen and (max-width: 700px){
+    .main-div-Try{
+       display: none !important;
+    
+    }
+}
+

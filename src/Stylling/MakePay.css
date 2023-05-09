@@ -1,0 +1,89 @@
+
+#Make-right{
+    color: #857885;
+    font-family: sans-serif;
+    width: 30%;   
+}
+.Make-Title{
+font-size: xx-large;
+font-weight: 800;
+
+}
+.Make-Title span{
+    color: #5C0E62;
+}
+.Make-p{
+    font-size: small;
+}
+.Learn-more-btn{
+text-decoration: none;
+color: #5C0E62;
+font-weight: 800;
+font-size: small;
+
+}
+.Make-card{
+    width: 70%;
+    border-style: none;
+    border-left: 4px solid;
+    border-image: 
+    linear-gradient(20deg,#00B5D0, #5C0E62) 1 100%;
+   padding-left: 10%;
+   color: #5C5E6E;
+   padding-top: 2%;
+}
+.Make-card p{
+    font-size: small;
+    width: 80%;
+}
+.Make-icon{
+    font-size: x-large;
+    color: #591567;
+    margin-bottom: 1%;
+}
+.Logos-main-div{
+    width: 60%;
+    margin: auto;
+    font-size: xx-large;
+    color: #999999;
+    justify-content: space-around;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.Logos-main-div p{
+    font-family: 'DELTA BOLD';
+    cursor: pointer;
+}
+.Logos-main-div span{
+   font-style:italic;
+   font-weight: bold;
+   font-size: x-large;
+   margin-top: 0.8%;
+   cursor: pointer;
+}
+.logo-icons{
+    font-size: 2rem;
+    margin-top: 1%;
+    cursor: pointer;
+    
+}
+@media only screen and (max-width: 600px) {
+    #Make-right{
+        
+        width:100%;   
+    }
+    .Logos-main-div{
+        width: 100%;
+
+transform: translate(0%,-800%);
+color: #fff;
+    }
+    .logo-icons{
+    margin-top: 1.8%;
+
+    }
+
+  }

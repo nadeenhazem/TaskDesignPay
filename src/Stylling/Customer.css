@@ -1,0 +1,132 @@
+.section-saying{
+    background: linear-gradient(99.22deg, #5C0E62 1.27%, #00B5D0 92.23%);
+    clip-path: polygon(0 44%, 100% 0, 100% 100%, 0 100%);
+min-height: 70vh;}
+.Customer-title {
+    margin-top: 25%;
+    letter-spacing: 0.1rem;
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    width: 70%;
+
+}
+
+.Customer-title span {
+    color: #591567;
+}
+
+.Customer-p {
+    color: #fff;
+    font-size: small;
+    width: 70%;
+    margin-top: 5%;
+}
+
+.say-div {
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+}
+.say-text{
+    width: 60%;
+    margin: auto;
+}
+
+.say-text p:nth-child(1) {
+    color: #fff;
+    font-size: x-large;
+    letter-spacing: 2px;
+    margin: auto;
+}
+
+.say-text p:nth-child(3) {
+    color: #FFBC51;
+    font-size: x-large;
+}
+
+.say-text h1 {
+    text-transform: uppercase;
+    color: #FFBC51;
+    font-weight: 900;
+    margin-top: 2%;
+}
+
+.say-img {
+    width: 15%;
+    height: 5rem;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+#say-positon div:nth-child(1) {
+    position: absolute;
+    transform: translate(-40%, 55%) scale(0.60);
+}
+
+#say-positon div:nth-child(2) {
+    position: absolute;
+    transform: translate(35%, -10%)scale(0.60);
+}
+
+#say-positon div:nth-child(3) {
+    position: absolute;
+    transform: translate(30%, 170%) scale(0.60);
+}
+
+#say-positon div:nth-child(4) {
+    position: absolute;
+    transform: translate(40%, 340%) scale(0.60);
+}
+
+#say-positon div:nth-child(5) {
+    position: absolute;
+    transform: translate(-40%, 340%) scale(0.60);
+}
+
+@media only screen and (max-width: 700px) {
+    .section-saying{
+        background: linear-gradient(99.22deg, #5C0E62 1.27%, #00B5D0 92.23%);
+        clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 100%);
+        text-align: center;
+        height: 80vh;
+    }
+    .Customer-title{
+        margin: auto;
+        width: 50%;
+        margin-top: 0%;
+        font-size: x-large;
+    }
+    .Customer-p {
+       display: none;
+    
+    }
+    .say-img {
+        width: 50%;
+        height: 8rem;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        cursor: pointer;
+margin: auto;
+margin-top: 4%;
+}
+    
+.say-text{
+    width: 60%;
+    margin: auto;
+}
+
+.say-text p:nth-child(1) {
+    color: #fff;
+    font-size: small;
+    letter-spacing: 2px;
+    margin: auto;
+}
+
+.say-text p:nth-child(3) {
+    color: #FFBC51;
+    font-size: medium;
+    margin-bottom: 20%;
+}   
+}

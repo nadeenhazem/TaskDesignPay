@@ -1,0 +1,62 @@
+.section-PayFaster{
+    position: relative;
+/* border-radius: 0% 100% 53% 47% / 55% 0% 100% 45% ;     */
+height: 500px;
+clip-path: ellipse(68% 79% at 37% 15%);
+background:linear-gradient(99.22deg, #5C0E62 1.27%, #00B5D0 92.23%);
+   
+}
+.bg-2{
+    background: linear-gradient(97.64deg, #00B5D0 13.48%, #5C0E62 82.98%);
+transform: matrix(-1, -0.08, -0.08, 1, 0, 0);
+border-radius: 49% 51% 51% 49% / 49% 0% 100% 51% ;
+}
+.PayFaster-Title{
+    width: 50%;
+    color: #fff;
+    font-weight: 600;
+    font-family: proxima-nova, sans-serif;
+}
+.PayFaster-p{
+    width: 50%;
+    color: #fff;
+    font-family: proxima-nova, sans-serif;
+    font-size: small;
+}
+.PayFaster-btn{
+    color: #fff;
+    border-style: none;
+    border-radius: 10px;
+    padding: 2% 8%;
+    background-color: #798AC9;
+
+}
+#PayFast-div-img{
+    position: absolute;
+    left:50%;
+    top: 25%;
+    
+
+}
+.Pay-fast-Image1{
+width: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .section-PayFaster{
+        position: relative;
+        border-radius:0; 
+        clip-path: inset(0 0 0 0);
+        background:linear-gradient(99.22deg, #5C0E62 1.27%, #00B5D0 92.23%);
+       
+    }
+    #PayFast-div-img{
+        position: relative;
+        left: 10%;
+    
+    }
+    .Pay-fast-Image1{
+        width: 50%;
+        }
+  }
