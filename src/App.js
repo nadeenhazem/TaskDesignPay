@@ -9,11 +9,11 @@ import CredtiCard from "./Components/CredtiCard";
 import Customer from "./Components/Customer";
 function App() {
  return(
-  <div style={{backgroundColor:'#F7F3FA'}}>
+  <div style={{backgroundColor:'#e9e9e9',overflow:'hidden'}}>
   <BrowserRouter>
 
   <div className='section-PayFaster'>
-    <div className="bg-2"></div>
+    {/* <div className="bg-2"></div> */}
   <NavBarpay/>
   <PayFaster/>
   </div>

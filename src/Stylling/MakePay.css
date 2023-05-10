@@ -1,8 +1,11 @@
-
+.section-Make{
+    margin-top: -15%;
+}
 #Make-right{
     color: #857885;
     font-family: sans-serif;
     width: 30%;   
+    z-index: 1;
 }
 .Make-Title{
 font-size: xx-large;
@@ -24,10 +27,10 @@ font-size: small;
 }
 .Make-card{
     width: 70%;
-    border-style: none;
-    border-left: 4px solid;
+    border-style: none !important;
+    border-left: 4px solid !important;
     border-image: 
-    linear-gradient(20deg,#00B5D0, #5C0E62) 1 100%;
+    linear-gradient(20deg,#00B5D0, #5C0E62) 1 100% !important;
    padding-left: 10%;
    color: #5C5E6E;
    padding-top: 2%;
@@ -70,7 +73,18 @@ font-size: small;
     cursor: pointer;
     
 }
+.Make-smallbg{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 69% 31% 23% 77% / 59% 32% 68% 41% ;
+    opacity: 0.5;
+    transform: translate(720%,-400%);
+}
 @media only screen and (max-width: 600px) {
+    .section-Make{
+        margin-top: 1%;
+    }
     #Make-right{
         
         width:100%;   
@@ -78,8 +92,9 @@ font-size: small;
     .Logos-main-div{
         width: 100%;
 
-transform: translate(0%,-800%);
+transform: translate(0%,-760%);
 color: #fff;
+background-color: transparent;
     }
     .logo-icons{
     margin-top: 1.8%;

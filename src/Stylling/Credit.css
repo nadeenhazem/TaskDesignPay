@@ -1,0 +1,65 @@
+.section-credit{
+    background-color: #fff;
+    clip-path: ellipse(64% 72% at 52% 72%);
+}
+.Credit-Text{
+    padding-left:20% !important;
+}
+.credit-h6 {
+    color: #E23434;
+    margin-top: 10%;
+}
+
+.Credit-Title {
+    font-size: xx-large;
+    font-weight: 800;
+    color: #857885;
+}
+
+.Credit-Title p {
+    color: #5C0E62;
+}
+
+.Credit-p {
+    width: 80%;
+    color: #857885;
+}
+.smallbg{
+    width: 100px;
+    height: 100px;
+    background-color: #F7F3FA;
+    border-radius: 69% 31% 23% 77% / 59% 32% 68% 41% ;
+    transform: translate(-50%,100%);
+    opacity:0.4;
+}
+
+.tablet-img {
+    margin-top: 15%;
+    width: 45%;
+    height: 90%;
+
+}
+@media only screen and (max-width: 600px) {
+    .section-credit{
+        background-color: #fff;
+        clip-path: inset(0 0 0 0); 
+           
+    }
+    .Credit-Text{
+      
+        margin-top:-15% !important;
+    }
+   
+    .tablet-img {
+        transform: scaleX(-1);
+        margin-left: 20% !important;
+    }
+    .Credit-p {
+        width: 100%;
+    }
+    .profile-img {
+        width: 5rem;
+        height: 5rem;
+    }
+
+}

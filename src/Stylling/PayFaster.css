@@ -1,29 +1,33 @@
-.section-PayFaster{
+.section-PayFaster {
     position: relative;
-/* border-radius: 0% 100% 53% 47% / 55% 0% 100% 45% ;     */
-height: 500px;
-clip-path: ellipse(68% 79% at 37% 15%);
-background:linear-gradient(99.22deg, #5C0E62 1.27%, #00B5D0 92.23%);
-   
+    height: 500px;
+    clip-path: ellipse(68% 79% at 37% 15%);
+    background: linear-gradient(99.22deg, #5C0E62 1.27%, #00B5D0 92.23%);
+    overflow: hidden;
+
 }
-.bg-2{
+
+.bg-2 {
     background: linear-gradient(97.64deg, #00B5D0 13.48%, #5C0E62 82.98%);
-transform: matrix(-1, -0.08, -0.08, 1, 0, 0);
-border-radius: 49% 51% 51% 49% / 49% 0% 100% 51% ;
+    transform: matrix(-1, -0.08, -0.08, 1, 0, 0);
+    border-radius: 49% 51% 51% 49% / 49% 0% 100% 51%;
 }
-.PayFaster-Title{
+
+.PayFaster-Title {
     width: 50%;
     color: #fff;
     font-weight: 600;
-    font-family: proxima-nova, sans-serif;
+    font-family: sans-serif;
 }
-.PayFaster-p{
+
+.PayFaster-p {
     width: 50%;
     color: #fff;
-    font-family: proxima-nova, sans-serif;
+    font-family: sans-serif;
     font-size: small;
 }
-.PayFaster-btn{
+
+.PayFaster-btn {
     color: #fff;
     border-style: none;
     border-radius: 10px;
@@ -31,32 +35,33 @@ border-radius: 49% 51% 51% 49% / 49% 0% 100% 51% ;
     background-color: #798AC9;
 
 }
-#PayFast-div-img{
-    position: absolute;
-    left:50%;
-    top: 25%;
-    
+
+#PayFast-div-img {
+    transform: translate(50%, -100%);
+
 
 }
-.Pay-fast-Image1{
-width: 80%;
+
+.Pay-fast-Image1 {
+    width: 30rem
 }
 
 @media only screen and (max-width: 600px) {
-    
-    .section-PayFaster{
+
+    .section-PayFaster {
         position: relative;
-        border-radius:0; 
+        border-radius: 0;
         clip-path: inset(0 0 0 0);
-        background:linear-gradient(99.22deg, #5C0E62 1.27%, #00B5D0 92.23%);
-       
+        background: linear-gradient(99.22deg, #5C0E62 1.27%, #00B5D0 92.23%);
+        height: auto;
     }
-    #PayFast-div-img{
-        position: relative;
-        left: 10%;
-    
+
+    #PayFast-div-img {
+        transform: translate(20%, 30%);
+
     }
-    .Pay-fast-Image1{
+
+    .Pay-fast-Image1 {
         width: 50%;
-        }
-  }
+    }
+}

@@ -1,106 +1,108 @@
-/* *{
-    background-color: rgb(67, 67, 172);
-} */
-.logo{
+.logo {
     font-size: xx-large;
     text-decoration: none;
     color: #FFF;
     margin-right: 15%;
     position: relative;
 }
-.logo-img{
-    width: 38.34px;
-    height: 41.5px;
-    background-color: #FFF;
-    display: inline-block;
-    
-    /* position: absolute;
-    left: 0.16%;
-    right: 80.48%;
-    top: 6.63%;
-    bottom: 8.68%; */
+
+.logo:hover {
+    color: #FFF;
 }
 
-.logo:hover{color: #FFF;}
-#div-middel-Links{
-    
+#div-middel-Links {
     background-color: transparent;
     justify-content: space-around;
     width: 60%;
     color: #FFF;
     font-size: large;
 }
-.middel-Links{
+
+.middel-Links {
     text-decoration: none;
     color: #FFF;
     padding: 8px 25px;
 
 }
-.middel-Links:hover{
+
+.middel-Links:hover {
     background-color: #FFBC51;
     border-radius: 20px;
     color: #FFF;
 }
-.signi-in{
+
+.signi-in {
     background-color: #FFBC51;
     color: #FFF;
     border-radius: 20px;
 
 }
 
-/*footer*/
-.section-Footer{
-    background-color:  #210933;
-    margin-top: -5% ;
+/*****footer******/
+.section-Footer {
+    background-color: #210933;
+    margin-top: -5%;
     align-items: center;
-    color:#868383;
-    font-size:medium;
+    color: #868383;
+    font-size: medium;
     color: orange;
-    
+
 }
 
-.footer-icons{
+.footer-icons {
     font-size: x-large;
-    margin:10% 2% ;
+    margin: 10% 2%;
 
     display: inline;
     cursor: pointer;
-color: #857885;    
+    color: #857885;
 }
-.footer-p{
+
+.footer-p {
     font-size: small;
     width: 30%;
-color: #857885;
-   
+    color: #857885;
+
 }
-.footer-title{
-    color:#FFF;
+
+.footer-title {
+    color: #FFF;
     font-size: larger;
-   
+
     margin: 5% 0% 15% 2%;
 }
-.footer-Links{
-    color:#615f5f ;
+
+.footer-Links {
+    color: #615f5f;
     text-decoration: none;
     margin-left: 4%;
     margin-bottom: 7%;
     font-size: medium;
-    display: block  ;
+    display: block;
 
 }
+
 @media only screen and (max-width: 600px) {
-    .section-Footer{
-       text-align: center;
+    .section-Footer {
+        text-align: center;
+        margin: auto;
     }
-    
-    .footer-p{
-        
+
+    .logo-footer {
+        margin-left: 15%;
+    }
+
+    .signi-in {
+        width: fit-content;
+    }
+
+    .footer-p {
+
         width: 100%;
         position: absolute;
         bottom: -680%;
-    
-       
+
+
     }
 
-  }
-  
+}

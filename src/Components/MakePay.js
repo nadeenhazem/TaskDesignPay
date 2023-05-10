@@ -11,20 +11,20 @@ function MakePay(props) {
     return (
         <section className='section-Make'>
             <div className="container py-5">
-                <div className="row d-flex justify-content-center " >
+                <div className="row justify-content-center " >
 
-                    <div className="row g-2">
+                    <div className="row ">
                         <div className=" col-lg-6  d-none d-sm-block" >
                             <div className="row g-2">
                                 <Card Icons={<VscPerson className='Make-icon' />}
                                     Top='5%' Bottom='0%' Titel='Easy Access'/>
                                 <Card Icons={<IoCashOutline className='Make-icon' />}
-                                    Top='0%' Bottom='5%' Titel='Cashflow Visiblity' />
+                                    Top='-8%' Bottom='0%' Titel='Cashflow Visiblity' />
 
                                 <Card Icons={<BiStats className='Make-icon' />}
-                                    Top='5%' Bottom='0%' Titel='Use You Connect' />
+                                    Top='12%' Bottom='0%' Titel='Use You Connect' />
                                 <Card Icons={<IoNewspaperOutline className='Make-icon' />}
-                                    Top='5%' Bottom='0%' Titel='Manage Invoicing' />
+                                    Top='0%' Bottom='0%' Titel='Manage Invoicing' />
                             </div>
 
 
@@ -51,7 +51,9 @@ function MakePay(props) {
 
 
             <Logos/>
-
+            <div className='Make-smallbg'>
+            
+            </div>
   </section>
     );
 }

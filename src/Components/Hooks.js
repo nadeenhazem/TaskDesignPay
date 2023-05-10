@@ -19,20 +19,4 @@ import { useEffect, useState } from "react"
     
   }
 
- export function ScrollBottom(){
-    const [ReachBottom,setReachBottom]=useState(false);
-    useEffect(()=>{
-      const handelScroll=()=>{
-        const offsetHeight=document.documentElement.offsetHeight;
-        const innerHeight=window.innerHeight;
-        const ScrollTop=document.documentElement.scrollTop;
-        const hasReachedBottom=offsetHeight-(innerHeight+ScrollTop)<=20;
-        setReachBottom(hasReachedBottom)
-      }
-      window.addEventListener("scroll",handelScroll)
-      return()=>{
-        window.removeEventListener("scroll",handelScroll)
-      }
-    },[])
-    return ReachBottom
-  }
+ 
